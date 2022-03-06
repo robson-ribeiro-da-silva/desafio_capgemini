@@ -85,7 +85,7 @@ public class Encripta {
      * Encripta a mensagem informada.
      * Imprime a matriz com o formato final após a encriptação
      */
-    public void encriptar_mensagem(){
+    public String encriptar_mensagem(){
         
         this.remover_espacos();
         this.contar_caracteres();
@@ -103,7 +103,8 @@ public class Encripta {
             mensagem = mensagem + " ";
             System.out.println(" "); //muda de linha
         }
-        System.out.println("\n A mensagem Encriptada é: "+mensagem);
+        
+        return mensagem;
     }
     
     public String getString_s() {

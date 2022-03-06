@@ -20,7 +20,7 @@ public class Algoritmo {
        
         int x_contador = 0;
         int auxiliar = 0;
-        System.out.println(" Calculando com a diferenÃ§a de: "+valorX);
+        System.out.println(" Calculando com a diferença de: "+valorX);
         
         for(int i = 0; i < vetorN.length; i++){
             for(int j = 0; j < vetorN.length; j++){

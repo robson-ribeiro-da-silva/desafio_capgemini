@@ -24,7 +24,7 @@ public class Main {
         String texto = "ola mundo"; //informa a mensagem
         encripta.setString_s(texto); //passa a mensagem para a String da classe
         System.out.println(" Mensagem inicial: "+texto);
-        encripta.encriptar_mensagem(); //encripta a mensagem
+        System.out.println("\n A mensagem Encriptada é: "+encripta.encriptar_mensagem()); //encripta a mensagem
         
         System.out.println("\n\n\t Testando a segunda Mensagem");
         Encripta encripta_2 = new Encripta();
@@ -32,7 +32,8 @@ public class Main {
         String texto_2 = "tenha um bom dia"; //informa a segunda mensagem
         encripta_2.setString_s(texto_2); //passa a segunda mensagem para a String da classe
         System.out.println(" Mensagem inicial: "+texto_2);
-        encripta_2.encriptar_mensagem(); //encripta a segunda mensagem
+        System.out.println("\n A mensagem Encriptada é: "+encripta_2.encriptar_mensagem()); //encripta a segunda mensagem
+        
         System.out.println("\n");
     }
     
