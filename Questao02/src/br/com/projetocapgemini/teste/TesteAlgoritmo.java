@@ -1,4 +1,4 @@
-package br.com.projetocapgemini.Teste;
+package br.com.projetocapgemini.teste;
 
 import static org.junit.jupiter.api.Assertions.*;
 
